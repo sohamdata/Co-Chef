@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+
 .App {
+  font-family: 'Philosopher', sans-serif;
   min-height: 100vh;
   background-color: #9BA17B;
+
 }
 
 .search-form {
