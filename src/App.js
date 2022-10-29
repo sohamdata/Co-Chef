@@ -5,7 +5,7 @@ import Footer from './Footer';
 import './App.css';
 
 
-const App = () => {
+function App() {
 
   const [recipes, setRecipes] = useState([]); //data.hits is an array of objects
   const [search, setSearch] = useState("");
@@ -44,7 +44,7 @@ const App = () => {
     <div className="App">
       <Title />
       <form onSubmit={getSearch} className="search-form">
-        <input className="search-bar" type="text" placeholder="Search any food" value={search} onChange={updateSearch} /> {/*passes the onChange event to updateSearch, it needs to be here so can retrieve input value (as opposed to button)*/}
+        <input className="search-bar" type="text" placeholder="what's on your mind today?" value={search} onChange={updateSearch} /> {/*passes the onChange event to updateSearch, it needs to be here so can retrieve input value (as opposed to button)*/}
         <button className="search-button" type="submit">Search</button>
       </form>
       <div className="recipe">

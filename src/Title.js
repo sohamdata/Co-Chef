@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Title = () => {
+function Title() {
     return (
         <div className="title container">
             <div className="m-5 p-4 shadow bg-warning">

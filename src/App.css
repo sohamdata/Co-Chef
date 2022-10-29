@@ -4,14 +4,14 @@
 }
 
 .search-form {
-  min-height: 10vh;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .search-bar {
-  width: 30%;
+  width: 20%;
   padding: 10px;
   border: none;
 }
@@ -20,15 +20,14 @@
   background: #CFB997;
   border: none;
   padding: 10px 20px;
-  color: black;
+  color: #153462;
   font-weight: bold;
   margin: 0;
 }
 
 button:hover {
-  /* background-color: #EF9B0F; */
   background-color: #153462;
-  color: white;
+  color: #CFB997;
 }
 
 .recipe {
