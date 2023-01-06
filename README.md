@@ -27,3 +27,5 @@ Demo:
 Requirements: 
 - Node.js and npm or yarn installed on your machine
 - You will need to obtain your own API key from [Edamam's Recipe API](https://developer.edamam.com/edamam-recipe-api) in order to use the app locally.
+
+*Note: The comments in my code are used as notes for later review, they are not meant to be code smells :)*
