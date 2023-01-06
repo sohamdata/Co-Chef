@@ -17,14 +17,13 @@ Demo:
 
 ## Running the app locally
 
-Requirements: 
-- Node.js and npm or yarn installed on your machine
-- You will need to obtain your own API key from [Edamam's Recipe API](https://developer.edamam.com/edamam-recipe-api) in order to use the app locally.
-
-
 - `git clone https://github.com/sohamdata/Co-Chef.git` then cd into it.
 - Install the necessary dependencies: `npm install` or `yarn install`
 - Create a `.env` file in the root of the project directory and add the following variables obtained from [Edamam's Recipe API](https://developer.edamam.com/edamam-recipe-api) :
   - REACT_APP_ID
   - REACT_APP_KEY
 - `npm start` or `yarn start`
+
+Requirements: 
+- Node.js and npm or yarn installed on your machine
+- You will need to obtain your own API key from [Edamam's Recipe API](https://developer.edamam.com/edamam-recipe-api) in order to use the app locally.
